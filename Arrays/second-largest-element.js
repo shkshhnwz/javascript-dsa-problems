@@ -2,7 +2,7 @@ const arr = [44,-12,14,70,66,5];
 class Solution{
     secondLargest(arr)
     {
-        let largest = 0;
+        let largest = -1;
         let seclargest = -1;
         for(let i = 0; i < arr.length; i++){
             if(arr[i] > largest){
